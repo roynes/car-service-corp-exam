@@ -10,10 +10,14 @@ git clone git@github.com:roynes/car-service-corp-exam.git
 or Download
 
 ## 2.
-Download needed vendor and node_modules
+Download needed vendor and node_modules(optional)
 
 ```
 composer install
+```
+
+This command is optional since the public css and js are all minified(though if an error occurs during runtime run this command)
+```
 npm install
 ```
 
