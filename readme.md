@@ -4,7 +4,7 @@
 Download app via SSH
 
 ```
-git@github.com:roynes/car-service-corp-exam.git
+git clone git@github.com:roynes/car-service-corp-exam.git
 ```
 
 or Download
