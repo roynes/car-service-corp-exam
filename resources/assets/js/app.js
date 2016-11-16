@@ -79,7 +79,7 @@ const app = new Vue({
         },
         beforeSubmit: function(e) {
             this.$validator.validateAll();
-            if(!this.error.any())
+            if(!this.errors.any())
                 alert('Test Done!');
         }
     }
