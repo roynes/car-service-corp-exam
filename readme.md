@@ -24,12 +24,15 @@ npm install
 ```
 
 ## 3.
-Rename the .env.example to .env and modify its contents especially the DB_ configs.
+Rename the `.env.example` to `.env` and modify its contents especially the `DB` configs.
 
 Type in command
 
 ```
-php artisan migrate --seed
+php artisan key:generate
+php artisan cache:clear
+php artisan migrate
+php artisan db:seed
 ```
 
 ## 4.
@@ -39,6 +42,9 @@ Type in command
 ```
 php artisan serve --host 127.0.0.1 or php artisan serve
 ```
+
+go to browser and type `127.0.01:8000` or `localhost:8000`
+
 
 >Make sure Nginx is turned off
 
