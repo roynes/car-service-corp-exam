@@ -79,6 +79,8 @@ const app = new Vue({
         },
         beforeSubmit: function(e) {
             this.$validator.validateAll();
+            if(!this.error.any())
+                alert('Test Done!');
         }
     }
 });
