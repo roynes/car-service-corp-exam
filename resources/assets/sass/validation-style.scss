@@ -1,0 +1,35 @@
+$bg-color: #cc0000;
+
+.input-err-validation-msg
+{
+  :focus
+  {
+    border-color: $bg-color !important;;
+    outline: 0;
+    -webkit-box-shadow: 1px 1px 20px $bg-color !important;
+    box-shadow: 1px 1px 20px $bg-color !important;;
+  }
+
+  display: block;
+  width: 100%;
+  height: 31px;
+  padding: 6px 12px;
+  font-size: 12px;
+  line-height: 1.42857;
+  color: black;
+  vertical-align: middle;
+  background-color: white;
+  border: 1px solid $bg-color !important;;
+  border-radius: 4px;
+  -webkit-box-shadow: 1px 1px 20px $bg-color !important;;
+  box-shadow: 1px 1px 20px $bg-color !important;;
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s
+}
+
+.p-err-validation-msg
+{
+  padding-top: 10px;
+  margin-bottom: 0px;
+  color: $bg-color;
+}
